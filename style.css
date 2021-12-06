@@ -1,12 +1,13 @@
 body{
-    background-color:#8B4513;
+    background-image: url("fenykep/hatter.png");
 }
 .container{
     background-color: white;
     box-shadow:  5px 5px 10px 20px #2F4F4F;
+    text-align: center;
 }
 .header{
-    background-color:tan;
+    background-color:darkslategray;
     color: white;
     height: 300px;
     background-size: cover;
@@ -15,4 +16,130 @@ body{
     text-align: center;
     padding-right: 40px;
     padding-top: 140px;
-} 
+}
+h4{
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+}
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    background-color:darkgray;
+    padding: 14px 16px;
+}
+li{
+    display: inline;
+}
+li a{
+    text-decoration: none;
+    color: black;
+    padding: 0px 16px;
+}
+li a:hover{
+    background-color: aliceblue;
+    border-radius: 20px;
+    color:blue;
+    box-shadow: 5px 5px 10px black;
+}
+.aktoldal{
+    background-color:khaki;
+}
+.navbar-brand{
+    background-color:slategray;
+    margin: 0px;
+    padding: 11px 16px;
+}
+
+.kiskepek{
+    width: 100%;
+    border-radius: 20%;
+    box-shadow: 5px 5px 7px black;
+    margin-bottom: 10px;
+}
+footer{
+    background-color:slategray;
+    border-radius: 10px 10px 0px 0px;
+}
+footer p{
+    text-align: center;
+    font-size: 14px;
+    font-style: italic;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#evszam{
+    padding-left: 20px;
+    float: left;
+}
+#osztaly{
+    padding-right: 20px;
+    float: right;
+}
+@media screen and (max-width: 300px) {
+    #evszam,#osztaly{
+        float: none;
+        display: block;
+        padding: 0px;
+    }
+    .header{
+        font-size: 20px;
+    }
+}
+
+
+
+
+
+
+
+.section{
+    text-align: center;
+    width: 100%;
+}
+
+.container #elso{
+    box-shadow: none;
+    text-align: center;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+.container #masodik, #otodik{
+    box-shadow: none;
+    font-family: sans-serif;
+}
+
+.container #harmadik, #hatodik{
+    box-shadow: none;
+    background-color:darkgrey;
+    font-family: sans-serif;
+    text-align: center;
+}
+.section #polgarhaboru{
+    width: 5px;
+    height: 4px;
+}
+.container #negyedik{
+    box-shadow: none;
+    text-align: center;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+iframe{
+    text-align: center;
+}
+video{
+    width: 100%;
+}
+.container #elozetes{
+    text-align: center;
+    font-family: sans-serif;
+    box-shadow: none;
+    background-color:cornflowerblue;
+    font-size: 20px;
+}
+hr{
+    color: crimson;
+}
