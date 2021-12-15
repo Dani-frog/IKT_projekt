@@ -1,13 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
-    background-image: url("hatterfo.jpg");
+    background-image: url("hatterfo2.jpg");
 }
 .container{
-    background-color: white;
+    background-image: url(fenykep/barna2.png);
     box-shadow:  5px 5px 10px 20px #008B8B;
     text-align: center;
 }
+
 .header{
-    background-color:darkslategray;
+    background-color: darkslategray;
     color: white;
     height: 300px;
     background-size: cover;
@@ -47,9 +52,10 @@ li a:hover{
 }
 .navbar-brand{
     background-color:slategray;
-    margin: 0px;
+    margin: 10px;
     padding: 11px 16px;
 }
+
 
 .kiskepek{
     width: 100%;
@@ -90,6 +96,7 @@ footer p{
 .section{
     text-align: center;
     width: 100%;
+
 }
 
 .container #elso{
@@ -106,7 +113,6 @@ footer p{
 
 .container #harmadik, #hatodik{
     box-shadow: none;
-    background-color:darkgrey;
     font-family: sans-serif;
     text-align: center;
 }
@@ -134,11 +140,9 @@ video{
     font-size: 20px;
 }
 hr{
-    color: #008B8B;
+    color: white;
     border: double;
 }
-
-
 
 ----------------------------------------------------
 
@@ -148,7 +152,6 @@ hr{
     font-family: 'Poppins', sans-serif;
 }
 .hero{
-    background-color:grey;
     width: 100%;
     height: 500px;
     min-height: 40vh;
@@ -165,6 +168,7 @@ hr{
 }
 h2{
     margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .row{
     margin-top: 10px;
@@ -236,4 +240,10 @@ h2{
 .col:hover::before, .col:hover::after{
     animation: stroke 1.5s linear;
     animation-fill-mode: forwards;
+}
+h6{
+    color: white;
+}
+b{
+    color: white;
 }
