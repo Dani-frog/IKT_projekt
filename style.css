@@ -7,10 +7,12 @@ body{
 }
 .container{
     background-image: url(fenykep/barna2.png);
-    box-shadow:  5px 5px 10px 20px #008B8B;
+    box-shadow:  5px 5px 10px 20px #8B4513;
     text-align: center;
 }
-
+.fooldal2{
+    color: white;
+}
 .header{
     background-color: darkslategray;
     color: white;
@@ -136,14 +138,16 @@ video{
     text-align: center;
     font-family: sans-serif;
     box-shadow: none;
-    background-color:cornflowerblue;
+    background-color: ornflowerblue;
     font-size: 20px;
 }
 hr{
     color: white;
     border: double;
 }
-
+u{
+    color: white;
+}
 ----------------------------------------------------
 
 *{
@@ -245,5 +249,8 @@ h6{
     color: white;
 }
 b{
+    color: white;
+}
+.fooldal{
     color: white;
 }
