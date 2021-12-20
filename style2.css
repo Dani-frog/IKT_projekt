@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("hatterfo2.jpg");
+}
+.container{
+    background-color: white;
+    box-shadow:  5px 5px 10px 20px #8B4513;
+    text-align: center;
+}
+
+.header{
+    background-color: darkslategray;
+    color: white;
+    height: 300px;
+    background-size: cover;
+    font-size: 70px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-right: 40px;
+    padding-top: 140px;
+}
+h5{
+    color:#BDB76B;
+    font-family: Arial, Helvetica, sans-serif
+}
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    background-color:darkgray;
+    padding: 14px 16px;
+}
+li{
+    display: inline;
+}
+li a{
+    text-decoration: none;
+    color: black;
+    padding: 0px 16px;
+}
+li a:hover{
+    background-color:#778899;
+    border-radius: 20px;
+    color:yellow;
+    box-shadow: 5px 5px 10px black;
+}
+.aktoldal{
+    background-color:khaki;
+}
+.navbar-brand{
+    background-color:slategray;
+    margin: 10px;
+    padding: 11px 16px;
+}
+
+
+.kiskepek{
+    width: 100%;
+    border-radius: 20%;
+    box-shadow: 5px 5px 7px black;
+    margin-bottom: 10px;
+}
+footer{
+    background-color:slategray;
+    border-radius: 10px 10px 0px 0px;
+}
+footer p{
+    text-align: center;
+    font-size: 14px;
+    font-style: italic;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#evszam{
+    padding-left: 20px;
+    float: left;
+}
+#osztaly{
+    padding-right: 20px;
+    float: right;
+}
+@media screen and (max-width: 300px) {
+    #evszam,#osztaly{
+        float: none;
+        display: block;
+        padding: 0px;
+    }
+    .header{
+        font-size: 20px;
+    }
+}
+.section{
+    text-align: center;
+    width: 100%;
+
+}
+
+.container #elso{
+    box-shadow: none;
+    text-align: center;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+.container #masodik, #otodik{
+    box-shadow: none;
+    font-family: sans-serif;
+}
+
+.container #harmadik, #hatodik{
+    box-shadow: none;
+    font-family: sans-serif;
+    text-align: center;
+}
+.section #polgarhaboru{
+    width: 5px;
+    height: 4px;
+}
+.container #negyedik{
+    box-shadow: none;
+    text-align: center;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+iframe{
+    text-align: center;
+}
+video{
+    width: 100%;
+}
+.container #elozetes{
+    text-align: center;
+    font-family: sans-serif;
+    box-shadow: none;
+    background-color:cornflowerblue;
+    font-size: 20px;
+}
+hr{
+    color: black;
+    border: double;
+}
+
+----------------------------------------------------
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.hero{
+    width: 100%;
+    height: 500px;
+    min-height: 40vh;
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-top: 80px;
+    box-sizing: border-box;
+    text-align: center;
+    color: #fff;
+}
+.hero h1{
+    font-size: 75px;
+    font-weight: 500;
+}
+h2{
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.row{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.col{
+    flex-basis: 28%;
+    box-sizing: border-box;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+    min-width: 230px;
+    margin-bottom: 20px;
+    z-index: 2;
+}
+.profile{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    background: #1e2648;
+    padding: 12px;
+}
+.profile img{
+    width: 50%;
+}
+.profile h2{
+    margin: 25px 0 10px;
+    font-weight: 500;
+}
+.profile p{
+    margin-bottom: 10px;
+    color: #ff7878;
+}
+.col::before, .col::after{
+    content: '';
+    height: 0;
+    width: 0;
+    background: linear-gradient(135deg, #ff001d, #ddfa00);
+    position: absolute;
+    z-index: -1;
+    animation: none;
+}
+.col::before{
+    left: 0;
+    top: -8px;
+}
+.col::after{
+    right: 0;
+    bottom: -8px;
+}
+
+
+@keyframes stroke{
+    0%{
+        height: 8px;
+        width: 0px;
+    }
+    50%{
+        height: 8px;
+        width: calc(100% + 8px);
+    }
+    100%{
+        height: calc(100% + 16px);
+        width: calc(100% + 8px);
+    }
+}
+.col:hover::before, .col:hover::after{
+    animation: stroke 1.5s linear;
+    animation-fill-mode: forwards;
+}
+h6{
+    color: white;
+}
+b{
+    color: black;
+}
+.fooldal2{
+    color: black;
+}
